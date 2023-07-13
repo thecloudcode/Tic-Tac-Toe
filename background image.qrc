@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="image">
+    <file>Red and Black Dark Gamer Sports YouTube Banner.png</file>
+    <file>men are brave.jpg</file>
+    <file>gameplayback.png</file>
+    <file>Red and Black Dark Gamer Sports YouTube Banner.png</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+  <qresource/>
+</RCC>

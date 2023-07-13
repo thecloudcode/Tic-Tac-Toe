@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="go">
+    <file>first2.png</file>
+  </qresource>
+</RCC>

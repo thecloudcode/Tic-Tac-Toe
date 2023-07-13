@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1262</width>
+    <height>755</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/back/inbetween.png);
+
+background-repeat: no-repeat;
+background-size: 1261px 761px;</string>
+    </property>
+    <property name="text">
+     <string>`</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="player2label">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>230</y>
+      <width>331</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#031319';
+        border: 2px solid '#031319';
+        color: white;
+        font-size: 47px;
+        font-weight: bold;
+border: 2px solid white;
+border-radius: 17px;
+padding: 7px;
+</string>
+    </property>
+    <property name="text">
+     <string>SCORE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Player1name">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>290</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#031319';
+        border: 2px solid '#031319';
+        color: white;
+        font-size: 47px;
+        font-weight: bold;
+text-align:right;
+</string>
+    </property>
+    <property name="text">
+     <string>Badal</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Player2Name">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>290</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#031319';
+        border: 2px solid '#031319';
+        color: white;
+        font-size: 47px;
+        font-weight: bold;
+text-align:right;</string>
+    </property>
+    <property name="text">
+     <string>Abhishek</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Player2Score">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>290</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#8C52FF';
+        border: 2px solid '#031319';
+        color: white;
+        font-size: 37px;
+        font-weight: bold;
+
+border-radius: 7px;</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Player1Score">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>290</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#8C52FF';
+        border: 2px solid '#8C52FF';
+        color: white;
+        font-size: 37px;
+        font-weight: bold;
+border-radius: 7px;
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>500</y>
+      <width>251</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color: '#F60D7D';
+color: white;
+font-size: 27px;
+font-weight: bold;
+border-radius: 17px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+QPushButton:hover{
+    background-color: '#d72151'; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}</string>
+    </property>
+    <property name="text">
+     <string>Restart</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>500</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton{background-color: white;
+color: '#fb3768';
+font-size: 27px;
+font-weight: bold;
+border-radius: 17px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+QPushButton:hover{
+    background-color: '#fecdd9'; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}</string>
+    </property>
+    <property name="text">
+     <string>End</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Player2Name_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>120</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#031319';
+        border: 2px solid '#031319';
+        color: #8C52FF;
+        font-size: 47px;
+        font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Player 1 Wins!</string>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>Player1name</zorder>
+   <zorder>Player2Name</zorder>
+   <zorder>Player2Score</zorder>
+   <zorder>Player1Score</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>player2label</zorder>
+   <zorder>Player2Name_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1262</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

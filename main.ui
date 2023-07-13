@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TicTacToe</class>
+ <widget class="QMainWindow" name="TicTacToe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1259</width>
+    <height>740</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1261</width>
+      <height>761</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-image:url(:/background/Red and Black Dark Gamer Sports YouTube Banner.png);
+background-repeat: no-repeat;
+background-size: 1261px 761px;</string>
+    </property>
+    <property name="text">
+     <string>`</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>300</y>
+      <width>370</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#031319';
+        border: 3px solid '#F60D7D';
+        border-radius: 10px;
+        color: white;
+marginLeft: 20px,</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Player 1...</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>370</y>
+      <width>370</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: '#031319';
+        border: 3px solid '#F60D7D';
+        border-radius: 10px;
+        color: white;
+marginLeft: 20px,</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Player 2...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>470</y>
+      <width>370</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QPushButton{background-color: #F60D7D;
+        color: white;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+}
+QPushButton:hover{
+background-color :#c50763;
+}</string>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Contact">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>10</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #8C52FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.8);
+
+	
+}
+
+QPushButton:hover {
+    background-color: #661aff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CONTACT ME</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1259</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="background image.qrc"/>
+  <include location="newback.qrc"/>
+ </resources>
+ <connections/>
+</ui>
